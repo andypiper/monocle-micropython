@@ -43,7 +43,7 @@ static const nrfx_twim_t i2c_bus_0 = NRFX_TWIM_INSTANCE(0);
 static const nrfx_twim_t i2c_bus_1 = NRFX_TWIM_INSTANCE(1);
 static const nrfx_spim_t spi_bus_2 = NRFX_SPIM_INSTANCE(2);
 
-bool prevent_sleep_flag = false;
+bool prevent_sleep_flag = true;
 
 bool force_sleep_flag = false;
 
